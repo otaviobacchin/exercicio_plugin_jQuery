@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(27, 27, 27);
+    color: aliceblue;
+}
+
+header {
+    position: relative;
+    padding: 24px;
+    margin-top: 20px;
+}
+
+
+
+
+header hr {
+    margin: auto;
+    margin-top: 20px;
+    max-width: 700px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+.container {
+    position: absolute;
+    top: 480px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 500px;
+    width: 100%;
+    padding: 20px;
+    margin: 20px;
+}
+
+
+label {
+    text-align: left;
+}
+
+.form-campo {
+    margin-bottom: 25px;
+}
+
+.form-campo input,
+.form-campo textarea {
+    width: 388px;
+    display: block;
+    padding: 6px;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 10px;
+    border-style: none;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    position: static;
+}
+
+.form-campo textarea {
+    resize: none;
+    height: 60px;
+}
+
+button {
+    display: block;
+    width: 388px;
+    padding: 8px 0;
+    border: none;
+    background-color: blueviolet;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-top: 30px;
+}
+
+button:hover {
+    background-color: rgb(103, 27, 174);
+}
